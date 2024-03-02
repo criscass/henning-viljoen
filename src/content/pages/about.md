@@ -8,7 +8,7 @@ seo:
     alt: A person sitting at a desk in front of a computer
 ---
 
-![Alt text for image](/about.jpeg)
+![Alt text for image](/about.jpg)
 
 ## Henning Viljoen - Attourney based in Hermanus, Western Cape, South Africa
 
