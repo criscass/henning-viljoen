@@ -28,36 +28,40 @@ export type SiteConfig = {
     hero?: Hero;
 };
 
-const siteConfig: SiteConfig = {
+export const siteConfigEn: SiteConfig = {
+    logo: {
+        src: '/logo.png',
+        alt: 'Henning Viljoen logo'
+    },
     title: 'Henning Viljoen',
     subtitle: 'Sole Practitioner',
     description: 'Labour Law matters, the drafting of Wills and administration of deceased estates, transfer of fixed property and conveyancing matters. ',
     image: {
         src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        alt: 'Henning Viljoen sitting at his desk with a client'
     },
     headerNavLinks: [
         {
             text: 'Home',
-            href: '/'
+            href: '/en/'
         },
         {
             text: 'About',
-            href: '/about'
+            href: '/en/about'
         },
         {
             text: 'Contact',
-            href: '/contact'
+            href: '/en/contact'
         }
     ],
     footerNavLinks: [
         {
             text: 'About',
-            href: '/about'
+            href: '/en/about'
         },
         {
             text: 'Contact',
-            href: '/contact'
+            href: '/en/contact'
         }
     ],
     socialLinks: [
@@ -80,10 +84,70 @@ const siteConfig: SiteConfig = {
         actions: [
             {
                 text: 'Get in Touch',
-                href: '/contact'
+                href: '/en/contact'
             }
         ]
     }
 };
 
-export default siteConfig;
+export const siteConfigAf: SiteConfig = {
+    logo: {
+        src: '/logo.png',
+        alt: 'Henning Viljoen logo'
+    },
+    title: 'Henning Viljoen',
+    subtitle: 'Enkelpraktisyn',
+    description: "My missie is om met integriteit en eerlikheid 'n diens aan elkeen te lewer",
+    image: {
+        src: '/dante-preview.jpg',
+        alt: "Henning Viljoen sit agter sy lessenaar besig met 'n kliënt"
+    },
+    headerNavLinks: [
+        {
+            text: 'Home',
+            href: '/af/'
+        },
+        {
+            text: 'About',
+            href: '/af/about'
+        },
+        {
+            text: 'Contact',
+            href: '/af/contact'
+        }
+    ],
+    footerNavLinks: [
+        {
+            text: 'About',
+            href: '/af/about'
+        },
+        {
+            text: 'Contact',
+            href: '/af/contact'
+        }
+    ],
+    socialLinks: [
+        {
+            text: 'Facebook',
+            href: 'https://instagram.com/'
+        },
+        {
+            text: 'X/Twitter',
+            href: 'https://twitter.com/'
+        }
+    ],
+    hero: {
+        title: "My missie is om met integriteit en eerlikheid 'n diens aan elkeen te lewer",
+        text: "As 'n enkelprokureur in my firma, sonder kandidaat-prokureurs of assistente, is ek prakties betrokke by, en hanteer ek daagliks elke aspek van, die sake en aangeleenthede waarmee ek te doen het - met ander woorde, die verantwoordelikheid rus alleen op my skouers. Ek beperk my dienste tot arbeidsreg sake, die opstel van testamente en die administrasie van bestorwe boedels, die oordrag van vaste eiendom en regskwessies aangaande eiendomsoordrag, asook notariële kontrakte soos huweliksvoorwaardes. Ek word dikwels geraadpleeg oor siviele regsgeskille en ek maak dit 'n punt om aan kliënte te verduidelik dat die verkose roete om te volg alternatiewe geskilbeslegting is, soos mediasie, met 'n bewese voordeel van tyd en koste om hierdie geskille op te los.",
+        image: {
+            src: '/hero.jpeg',
+            alt: 'Attorney showing two clients something on a laptop'
+        },
+        actions: [
+            {
+                text: 'Kontak my',
+                href: '/af/contact'
+            }
+        ]
+    }
+};

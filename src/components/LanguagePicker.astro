@@ -1,0 +1,10 @@
+---
+const { lang } = Astro.props;
+const path = Astro.url.pathname;
+
+const updatedPath = path.replace(lang, lang === 'en' ? 'af' : 'en');
+---
+
+<a class="text-xl font-serif text-main hover:underline hover:underline-offset-2 hover:decoration-1 md:text-base" href={`${updatedPath}`}
+    >{lang === 'en' ? 'Afrikaans' : 'English'}</a
+>

@@ -1,18 +1,21 @@
 ---
-import siteConfig from '../data/site-config';
+import { siteConfigEn, siteConfigAf, type SiteConfig } from '../data/site-config';
+import { getLangFromUrl } from '../i18n/utils';
+const lang = getLangFromUrl(Astro.url);
+
+let siteConfig!: SiteConfig;
+
+if (lang === 'en') {
+    siteConfig = siteConfigEn;
+} else if (lang === 'af') {
+    siteConfig = siteConfigAf;
+}
 ---
 
 <header class="w-full max-w-3xl mx-auto mb-12 sm:mb-16">
-    {
-        siteConfig.logo && siteConfig.logo?.src ? (
-            <a href="/">
-                <img src={siteConfig.logo.src} alt={siteConfig.logo.alt || ''} class="max-h-12" />
-            </a>
-        ) : (
-            <a class="font-serif text-2xl leading-tight font-medium text-theme-foreground sm:text-4xl" href="/">
-                {siteConfig.title}
-            </a>
-        )
-    }
+    <img src={siteConfig.logo.src} alt={siteConfig.logo.alt} class="w-12 md:w-24 mb-4" />
+    <a class="font-serif text-2xl leading-tight font-medium text-theme-foreground sm:text-4xl" href="/">
+        {siteConfig.title}
+    </a>
     {siteConfig.subtitle && <p class="text-sm leading-tight mt-1">{siteConfig.subtitle}</p>}
 </header>

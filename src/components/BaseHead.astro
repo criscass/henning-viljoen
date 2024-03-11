@@ -1,6 +1,17 @@
 ---
-import siteConfig from '../data/site-config';
+import { siteConfigEn, siteConfigAf, type SiteConfig } from '../data/site-config';
+import { getLangFromUrl } from '../i18n/utils';
 import '../styles/global.css';
+
+const lang = getLangFromUrl(Astro.url);
+
+let siteConfig!: SiteConfig;
+
+if (lang === 'en') {
+    siteConfig = siteConfigEn;
+} else if (lang === 'af') {
+    siteConfig = siteConfigAf;
+}
 
 export type Props = {
     title?: string;

@@ -1,7 +1,12 @@
 ---
 import { marked } from 'marked';
 import Button from './Button.astro';
-import siteConfig from '../data/site-config';
+import { siteConfigEn, siteConfigAf, type SiteConfig } from '../data/site-config';
+import { getLangFromUrl } from '../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+
+const siteConfig: SiteConfig = lang === 'en' ? siteConfigEn : siteConfigAf;
 
 const hero = siteConfig.hero;
 ---
