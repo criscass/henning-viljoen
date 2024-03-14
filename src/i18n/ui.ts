@@ -3,6 +3,8 @@ export const languages = {
     af: 'Afrikaans'
 };
 
+export const showDefaultLang = false;
+
 export const defaultLang = 'en';
 
 export const ui = {

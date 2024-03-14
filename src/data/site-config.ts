@@ -43,25 +43,25 @@ export const siteConfigEn: SiteConfig = {
     headerNavLinks: [
         {
             text: 'Home',
-            href: '/en/'
+            href: '/'
         },
         {
             text: 'About',
-            href: '/en/about'
+            href: '/about'
         },
         {
             text: 'Contact',
-            href: '/en/contact'
+            href: '/contact'
         }
     ],
     footerNavLinks: [
         {
             text: 'About',
-            href: '/en/about'
+            href: '/about'
         },
         {
             text: 'Contact',
-            href: '/en/contact'
+            href: '/contact'
         }
     ],
     socialLinks: [
@@ -84,7 +84,7 @@ export const siteConfigEn: SiteConfig = {
         actions: [
             {
                 text: 'Get in Touch',
-                href: '/en/contact'
+                href: '/contact'
             }
         ]
     }

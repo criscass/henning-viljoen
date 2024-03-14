@@ -1,1 +1,11 @@
-<meta http-equiv="refresh" content="0;url=/en/" />
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import Hero from '../components/Hero.astro';
+
+import { siteConfigEn } from '../data/site-config';
+---
+
+<BaseLayout description={siteConfigEn.description} image={siteConfigEn.image}>
+	<Hero />
+</BaseLayout>
