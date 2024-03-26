@@ -104,25 +104,25 @@ export const siteConfigAf: SiteConfig = {
     },
     headerNavLinks: [
         {
-            text: 'Home',
+            text: 'Tuis',
             href: '/af/'
         },
         {
-            text: 'About',
+            text: 'Aangaande',
             href: '/af/about'
         },
         {
-            text: 'Contact',
+            text: 'Kontak',
             href: '/af/contact'
         }
     ],
     footerNavLinks: [
         {
-            text: 'About',
+            text: 'Aangaande',
             href: '/af/about'
         },
         {
-            text: 'Contact',
+            text: 'Kontak',
             href: '/af/contact'
         }
     ],

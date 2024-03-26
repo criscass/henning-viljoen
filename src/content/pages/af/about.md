@@ -1,21 +1,21 @@
 ---
-title: About
+title: Aangaande
 seo:
   title: About Me
   description: Learn more about Henning Viljoen, attorney in Hermanus.
   image:
     src: '/about.jpeg'
-    alt: Henning Viljoen sit agter sy lessenaar met 'n glimlag op sy gesig
+    alt: A person sitting at a desk in front of a computer
 ---
 
 ![Alt text for image](/about.jpg)
 
-## Henning Viljoen - Attourney based in Hermanus, Western Cape, South Africa
+## Henning Viljoen
 
-**Greetings!** I'm Henning Viljoen, Laboris elit excepteur do proident consequat ad aliqua ex. Officia irure cillum adipisicing commodo laborum proident nostrud occaecat sit. Pariatur velit officia enim quis ad nisi esse. Et commodo qui voluptate voluptate aliqua sit sint ullamco. Ex exercitation non duis ad culpa ad commodo velit laboris quis.
+### Prokureur gebaseer in Vermont, Hermanus, Wes Kaap, Suid Afrika
 
-## My Personal Information
+### My persoonlike inligting
 
-Educated at the University of Pretoria where I obtained the degrees BA (Law) (1965) and LLB (1967). I completed my articles with the firm of Dyason Douglas Muller & Meyer and was admitted as Attorney, Notary and Conveyancer in 1969. After a few years in practice, I went to Holland where I obtained the degree Doctor of Laws at the University of Leiden in 1975. After returning to South Africa, I joined the staff of the University of Pretoria in 1976 as senior lecturer and was promoted to professor in Public Law in 1983. I took early retirement in 1998 and resumed full time practice as attorney in Pretoria, specializing in Labour Law, after obtaining the Certificate in Advanced Labour Law from the University of Pretoria. In 2011 I moved to Hermanus, Western Cape, where I opened a practice as Attorney, Notary and Conveyancer.
+Opgelei aan die Universiteit van Pretoria waar ek die grade BA (Regte) (1965) en LLB (1967) verwerf het. Ek het my klerkskap voltooi by die firma Dyason Douglas Muller & Meyer, Pretoria en is in 1969 as Prokureur, Notaris en Aktevervaardiger toegelaat. Na 'n paar jaar in die praktyk, het ek na Nederland gegaan waar ek die graad Doktor in die Regte aan die Universiteit van Leiden in 1975 verwerf het. Na my terugkeer na Suid-Afrika, het ek in 1976 by die Universiteit van Pretoria se personeel aangesluit as senior lektor en is in 1983 tot professor in Publiekreg bevorder. Ek het vroeg afgetree in 1998 en het voltyds as prokureur in Pretoria begin praktiseer, met spesialisering in Arbeidsreg, nadat ek die Sertifikaat in Gevorderde Arbeidsreg aan die Universiteit van Pretoria verwerf het. In 2011 het ek na Hermanus, Wes-Kaap, verhuis waar ek 'n praktyk as Prokureur, Notaris en Aktevervaardiger begin het.
 
-From 2000 to 2021 I was a Commissioner of the Broadcasting Complaints Commission of South Africa, the last four years as chairman.  I was also appointed as a Commissioner in the Small Claims Court in 1989 in Pretoria and continue serving as Commissioner since moving to Hermanus. In 2015 I obtained accreditation as mediator from the University of Cape Town.
+Vanaf 2000 tot 2021 was ek 'n Kommissaris van die Uitsaai-klagtekommissie van Suid-Afrika, met die laaste vier jaar as voorsitter. Ek is ook in 1989 in Pretoria as 'n Kommissaris in die Hof vir Klein Eise aangestel en dien voort as Kommissaris sedert my verhuising na Hermanus. In 2015 het ek akkreditasie as mediator van die Universiteit van Kaapstad verkry.”

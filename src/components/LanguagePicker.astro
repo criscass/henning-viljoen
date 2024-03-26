@@ -2,7 +2,6 @@
 const { lang } = Astro.props;
 const isAfrikaans = lang === 'af';
 const currentPage = isAfrikaans ? Astro.url.pathname.slice(3) : Astro.url.pathname;
-console.log(currentPage);
 ---
 
 <a
