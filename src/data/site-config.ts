@@ -37,7 +37,7 @@ export const siteConfigEn: SiteConfig = {
     subtitle: 'Sole Practitioner',
     description: 'Labour Law matters, the drafting of Wills and administration of deceased estates, transfer of fixed property and conveyancing matters. ',
     image: {
-        src: '/dante-preview.jpg',
+        src: '/hero.jpeg',
         alt: 'Henning Viljoen sitting at his desk with a client'
     },
     headerNavLinks: [
